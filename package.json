@@ -1,0 +1,27 @@
+{
+  "name": "secretdapp",
+  "version": "1.0.0",
+  "description": "Dapp address 27c1e5b0bd7f659298ca7ce8223d9958a2b0b696e5b0fd5001941da21d1233c6",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etm-dev/secretDapp.git"
+  },
+  "dependencies": {
+    "ed2curve": "^0.2.1",
+    "fast-sha256": "^1.1.0",
+    "nanoid": "^2.0.1",
+    "tweetnacl": "^1.0.1",
+    "tweetnacl-sealedbox-js": "^1.1.0",
+    "tweetnacl-util": "^0.15.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etm-dev/secretDapp/issues"
+  },
+  "homepage": "https://github.com/etm-dev/secretDapp#readme"
+}
