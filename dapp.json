@@ -1,0 +1,17 @@
+{
+  "name": "secretDapp",
+  "link": "http://epony.cn/etm/dapp/secret.zip",
+  "category": 1,
+  "description": "safe message in blockchain",
+  "tags": "1.0.0",
+  "icon": "http://52lo.cc/static/img/bg-login.0f8575a.png",
+  "delegates": [
+    "a9662a8ab3f382e303237d518bc879f6a488b3608c89963dc7148c0b86f1a416",
+    "138f91041da59db9badd1554d62c73259242ffd939205759de38884c53beb867",
+    "a0918eac9cb3b4ec98fe2c3cc005d83d35370bbce0dfaa665a2c50f2d844dd52",
+    "bb651d2450c63801535915ccb5c8a2f185905643c075e526f1468a7bff833211",
+    "2bd68ec4036d9b7fe11c924fbeffeb7d21b66013002397e79e00b9bbc058dcb1"
+  ],
+  "unlockDelegates": 3,
+  "type": 0
+}
