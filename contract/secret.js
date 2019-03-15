@@ -72,13 +72,14 @@ module.exports = {
     }
     let encodeMsg = null
     try {
-      encodeMsg = cryptoUtils.cryptoUtils.encodeString(words, publicKey)
+      encodeMsg = cryptoUtils.encodeString(words, publicKey)
     } catch (e) {
       return ENCODE_STRING_ERROR
     }
     if (!encodeMsg) {
       return ENCODE_STRING_ERROR
     }
+
 
     app.sdb.create('Word', {
       'id': ids.generateID(),
