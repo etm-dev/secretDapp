@@ -51,15 +51,11 @@ module.exports = {
     }
     //2.在主网中获取是否有publickey （如果是没注册的账户  是没有publickey存在的）
     if (!receiveUser) {
-      try {
-        let res = await axios.get("http://etm.red:8097/api/accounts/getPublickey?address=" + receiveAddress, {
-          timeout: 5000
-        })
-        if (res.data && res.data.success) {
-          publicKey = res.data.publicKey
-        }
-      } catch (error) {
-        return NET_ERROR
+      let res = await axios.get("http://etm.red:8097/api/accounts/getPublickey?address=" + receiveAddress, {
+        timeout: 5000
+      })
+      if (res && res.data && res.data.success) {
+        publicKey = res.data.publicKey
       }
     }
     if (!publicKey) {
