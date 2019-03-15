@@ -30,6 +30,9 @@ module.exports = {
     })
 
   }
+
+
+
   encodeString: async function(words, receiveAddress) {
     let sender = this.trs.senderId
     if (!etmjs.crypto.isAddress(sender)) return INVALIDATE_USER
@@ -51,8 +54,8 @@ module.exports = {
         let res = await axios.get("http://etm.red:8097/api/accounts/getPublickey?address=" + receiveAddress, {
           timeout: 5000
         })
-        if (data.success) {
-          publicKey = data.publicKey
+        if (res.data && res.data.success) {
+          publicKey = res.data.publicKey
         }
       } catch (error) {
 
@@ -80,7 +83,7 @@ module.exports = {
       'msg': encodeMsg,
       'sender': sender,
       'receiver': receiveAddress,
-      date: Date.now()
+      'date': Date.now(),
     })
 
   }
