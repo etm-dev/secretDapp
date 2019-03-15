@@ -23,7 +23,7 @@ module.exports = {
       return INVALIDATE_NICKNAME
     }
     await app.model.User.create({
-      address,
+      address:sender,
       publicKey,
       image,
       nickname
