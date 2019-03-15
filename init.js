@@ -1,5 +1,6 @@
+let config = require("./config")
+
 module.exports = async function () {
-  console.log('enter dapp init')
 
   app.registerContract(1000, 'secret.save')
   //dice cloud author endorse motion pave enact spy balcony avoid call tray
