@@ -53,7 +53,7 @@ app.route.get("/msg/:address", async req => {
   if (!etmjs.crypto.isAddress(address)) return INVALIDATE_USER
   let encodeMsgs = await app.model.Words.findAll({
     condition: {
-      address
+      receiver:address
     },
     limit: count,
     offset: count * (page - 1)
