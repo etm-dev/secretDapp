@@ -2,6 +2,7 @@ let constants = require("../constant/constants")
 let ids = require("../lib/ids")
 let cryptoUtils = require("../lib/cryptoUtils")
 let etmjs = require('etm-js')
+let axios = require("axios")
 
 let STRING_LENGTH_ERROR = constants.STRING_LENGTH_ERROR
 let ENCODE_STRING_ERROR = constants.ENCODE_STRING_ERROR
@@ -30,7 +31,7 @@ module.exports = {
       nickname
     })
 
-  }
+  },
 
 
 
@@ -51,11 +52,15 @@ module.exports = {
     }
     //2.在主网中获取是否有publickey （如果是没注册的账户  是没有publickey存在的）
     if (!receiveUser) {
-      let res = await axios.get("http://etm.red:8097/api/accounts/getPublickey?address=" + receiveAddress, {
-        timeout: 5000
-      })
-      if (res && res.data && res.data.success) {
-        publicKey = res.data.publicKey
+      try {
+        let res = await axios.get("http://etm.red:8097/api/accounts/getPublickey?address=" + receiveAddress, {
+          timeout: 5000
+        })
+        if (res && res.data && res.data.success) {
+          publicKey = res.data.publicKey
+        }
+      } catch (e) {
+        return NET_ERROR
       }
     }
     if (!publicKey) {

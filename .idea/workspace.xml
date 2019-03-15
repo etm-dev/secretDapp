@@ -2,117 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4aef80-92f2-4f36-9f0a-03862ee94c72" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/wanglei.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/secretDapp.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/blake2b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/blake2s.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/generated_test_vectors.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/test_blake2b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/test_blake2s.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/blakejs/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/ed2curve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/ed2curve.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/AUTHORS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/nacl-fast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/nacl-fast.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/nacl.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/nacl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/nacl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/node_modules/tweetnacl/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ed2curve/yarn.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/build/umd-prelude.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/sha256.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/sha256.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/sha256.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/src/sha256.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/test/bench.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/test/bench.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/test/data/hmac.random.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/test/data/pbkdf.random.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/test/data/sha256.random.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/test/generate_data/hmac.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/test/generate_data/pbkdf2.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/test/generate_data/sha256.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/test/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fast-sha256/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/async/format.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/async/generate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/async/index.browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/async/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/async/random.browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/async/random.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/format.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/generate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/index.browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/non-secure/generate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/non-secure/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/random.browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/random.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/nanoid/url.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/entrypoint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/sealedbox.node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/sealedbox.web.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/src/consts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/src/nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/src/open.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/src/seal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/src/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/webpack.node.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/webpack.web.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-sealedbox-js/webtest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-util/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-util/AUTHORS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-util/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-util/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-util/nacl-util.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-util/nacl-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-util/nacl-util.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl-util/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/AUTHORS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/nacl-fast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/nacl-fast.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/nacl.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/nacl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/nacl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tweetnacl/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contract/secret.js" afterPath="$PROJECT_DIR$/contract/secret.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -129,18 +20,37 @@
       <file leaf-file-name="secret.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/secret.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="462">
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <marker date="1552622041773" expanded="true" signature="926:929" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cryptoUtils.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cryptoUtils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/cryptoUtils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="110">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <marker date="1552618471633" expanded="true" signature="221:1222" ph="{...}" />
+                <marker date="1552618471633" expanded="true" signature="246:299" ph="{...}" />
+                <marker date="1552618471633" expanded="true" signature="338:436" ph="{...}" />
+                <marker date="1552618471633" expanded="true" signature="467:525" ph="{...}" />
+                <marker date="1552618471633" expanded="true" signature="577:831" ph="{...}" />
+                <marker date="1552618471633" expanded="true" signature="1289:1957" ph="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secret.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contract/secret.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -151,7 +61,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="19" />
-              <folding />
+              <folding>
+                <marker date="1552559359531" expanded="true" signature="39:84" ph="{...}" />
+                <marker date="1552559359531" expanded="true" signature="55:82" ph="{...}" />
+                <marker date="1552559359531" expanded="true" signature="103:178" ph="//..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,9 +85,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/cryptoUtils.js" />
         <option value="$PROJECT_DIR$/interface/test.js" />
         <option value="$PROJECT_DIR$/interface/secret.js" />
+        <option value="$PROJECT_DIR$/lib/cryptoUtils.js" />
+        <option value="$PROJECT_DIR$/contract/secret.js" />
       </list>
     </option>
   </component>
@@ -192,7 +107,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -243,12 +158,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="secretDapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="secretDapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secretDapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secretDapp" type="462c0819:PsiDirectoryNode" />
+              <item name="contract" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="secretDapp" type="b2602c69:ProjectViewProjectNode" />
@@ -264,7 +185,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -299,14 +219,15 @@
       <updated>1552560409300</updated>
       <workItem from="1552560410715" duration="80000" />
       <workItem from="1552561630964" duration="444000" />
+      <workItem from="1552631443082" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="524000" />
+    <option name="totallyTimeSpent" value="573000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2406672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -341,9 +262,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/interface/secret.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <marker date="1552622041773" expanded="true" signature="926:929" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -351,23 +274,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/secret.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1552559359531" expanded="true" signature="39:84" ph="{...}" />
+            <marker date="1552559359531" expanded="true" signature="55:82" ph="{...}" />
+            <marker date="1552559359531" expanded="true" signature="103:178" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -375,6 +286,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1552618471633" expanded="true" signature="221:1222" ph="{...}" />
+            <marker date="1552618471633" expanded="true" signature="246:299" ph="{...}" />
+            <marker date="1552618471633" expanded="true" signature="338:436" ph="{...}" />
+            <marker date="1552618471633" expanded="true" signature="467:525" ph="{...}" />
+            <marker date="1552618471633" expanded="true" signature="577:831" ph="{...}" />
+            <marker date="1552618471633" expanded="true" signature="1289:1957" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/secret.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1552622041773" expanded="true" signature="926:929" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ids.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <marker date="1552559359531" expanded="true" signature="39:84" ph="{...}" />
+            <marker date="1552559359531" expanded="true" signature="55:82" ph="{...}" />
+            <marker date="1552559359531" expanded="true" signature="103:178" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/test.js" />
+    <entry file="file://$PROJECT_DIR$/interface/secret.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <marker date="1552622041773" expanded="true" signature="926:929" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cryptoUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1552618471633" expanded="true" signature="221:1222" ph="{...}" />
+            <marker date="1552618471633" expanded="true" signature="246:299" ph="{...}" />
+            <marker date="1552618471633" expanded="true" signature="338:436" ph="{...}" />
+            <marker date="1552618471633" expanded="true" signature="467:525" ph="{...}" />
+            <marker date="1552618471633" expanded="true" signature="577:831" ph="{...}" />
+            <marker date="1552618471633" expanded="true" signature="1289:1957" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contract/secret.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
           <folding />
         </state>
       </provider>
