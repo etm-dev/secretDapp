@@ -33,6 +33,7 @@ module.exports = {
 
   },
 
+  //所有的加密操作都可以在本地实现，本示例仅仅为了更好的给大家演示
   encodeString: async function(words, receiveAddress) {
     let sender = this.trs.senderId
     if (!etmjs.crypto.isAddress(sender)) return INVALIDATE_USER
@@ -86,5 +87,4 @@ module.exports = {
     })
 
   }
-
 }

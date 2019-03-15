@@ -3,6 +3,8 @@ let cryptoUtils = require("../lib/cryptoUtils")
 let etmjs = require('etm-js')
 let constants = require("../constant/constants")
 let INVALIDATE_USER = constants.INVALIDATE_USER
+let DECODE_STRING_ERROR = constants.DECODE_STRING_ERROR
+
 //获取信息，并不改变信息
 app.route.get('/getAllWords', async function(req) {
   let words = await app.model.Words.findAll({})
@@ -53,7 +55,7 @@ app.route.get("/msg/:address", async req => {
   if (!etmjs.crypto.isAddress(address)) return INVALIDATE_USER
   let encodeMsgs = await app.model.Words.findAll({
     condition: {
-      receiver:address
+      receiver: address
     },
     limit: count,
     offset: count * (page - 1)
@@ -62,5 +64,27 @@ app.route.get("/msg/:address", async req => {
   return {
     encodeMsgs,
     totalCount
+  }
+})
+
+
+//所有的解密操作都可以在本地实现，本示例仅仅为了更好的给大家演示
+//TODO  如果开发者觉得这样不安全，完全可以把加密解密放到本地操作，此案例只是更好的给大家演示
+app.route.get("/decode", async req => {
+  let {
+    encodeMsg,
+    secret
+  } = req.query
+  //既然已经有了secret 那么说明不需要再验证地址之类的合法性，secret代表最大权限
+  if (!secret) {
+    return DECODE_STRING_ERROR
+  }
+  try {
+    dmsg = cryptoUtils.decodeString(encodedMsg, secret)
+  } catch (e) {
+    return DECODE_STRING_ERROR
+  }
+  return {
+    dmsg
   }
 })
