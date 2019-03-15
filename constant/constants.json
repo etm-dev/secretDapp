@@ -4,5 +4,6 @@
   "INVALIDATE_USER": "非法用户",
   "INVALIDATE_RECEIVER": "非法接收者地址",
   "INVALIDATE_NICKNAME": "非法昵称",
+  "NET_ERROR": "主网节点出错",
   "INVALIDATE_PUBLIC_KEY": "该用户暂不存在，请邀请该用户加入【秘密】，获取让该用户登录主网钱包即可"
 }

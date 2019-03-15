@@ -6,6 +6,7 @@ let etmjs = require('etm-js')
 let STRING_LENGTH_ERROR = constants.STRING_LENGTH_ERROR
 let ENCODE_STRING_ERROR = constants.ENCODE_STRING_ERROR
 let INVALIDATE_USER = constants.INVALIDATE_USER
+let NET_ERROR = constants.NET_ERROR
 
 let INVALIDATE_RECEIVER = constants.INVALIDATE_RECEIVER
 let INVALIDATE_PUBLIC_KEY = constants.INVALIDATE_PUBLIC_KEY
@@ -58,7 +59,7 @@ module.exports = {
           publicKey = res.data.publicKey
         }
       } catch (error) {
-
+        return NET_ERROR
       }
     }
     if (!publicKey) {
