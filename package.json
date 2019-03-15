@@ -11,9 +11,11 @@
     "url": "git+https://github.com/etm-dev/secretDapp.git"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "ed2curve": "^0.2.1",
     "fast-sha256": "^1.1.0",
     "nanoid": "^2.0.1",
+    "etm-js": "git+https://github.com/entanmo/etm-js.git",
     "tweetnacl": "^1.0.1",
     "tweetnacl-sealedbox-js": "^1.1.0",
     "tweetnacl-util": "^0.15.0"

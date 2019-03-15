@@ -3,6 +3,7 @@ module.exports = async function () {
 
   app.registerContract(1000, 'secret.save')
   //dice cloud author endorse motion pave enact spy balcony avoid call tray
+  app.registerContract(1001, 'secret.register')
 
   await app.sdb.load('Words', app.model.Words.fields(), ['id'])
 
