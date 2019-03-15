@@ -40,3 +40,27 @@ app.route.get("/user/:address", async req => {
     user
   }
 })
+
+//获取加密的信息
+app.route.get("/msg/:address", async req => {
+  let {
+    page,
+    count
+  } = req.query
+  page = page || 1
+  count = count || 10
+  let address = req.params.address
+  if (!etmjs.crypto.isAddress(address)) return INVALIDATE_USER
+  let encodeMsgs = await app.model.Words.findAll({
+    condition: {
+      address
+    },
+    limit: count,
+    offset: count * (page - 1)
+  })
+  let totalCount = await app.model.Words.count({})
+  return {
+    encodeMsgs,
+    totalCount
+  }
+})

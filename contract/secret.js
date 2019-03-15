@@ -33,8 +33,6 @@ module.exports = {
 
   },
 
-
-
   encodeString: async function(words, receiveAddress) {
     let sender = this.trs.senderId
     if (!etmjs.crypto.isAddress(sender)) return INVALIDATE_USER
@@ -79,8 +77,6 @@ module.exports = {
     if (!encodeMsg) {
       return ENCODE_STRING_ERROR
     }
-
-
     app.sdb.create('Word', {
       'id': ids.generateID(),
       'msg': encodeMsg,
