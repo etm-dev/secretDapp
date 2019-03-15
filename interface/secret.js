@@ -2,7 +2,7 @@ let ids = require("../lib/ids")
 let cryptoUtils = require("../lib/cryptoUtils")
 let etmjs = require('etm-js')
 let constants = require("../constant/constants")
-let INVALIDATE_USER = constant.INVALIDATE_USER
+let INVALIDATE_USER = constants.INVALIDATE_USER
 //获取信息，并不改变信息
 app.route.get('/getAllWords', async function(req) {
   let words = await app.model.Words.findAll({})

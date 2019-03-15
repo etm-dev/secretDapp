@@ -3,13 +3,13 @@ let ids = require("../lib/ids")
 let cryptoUtils = require("../lib/cryptoUtils")
 let etmjs = require('etm-js')
 
-let STRING_LENGTH_ERROR = constant.STRING_LENGTH_ERROR
-let ENCODE_STRING_ERROR = constant.ENCODE_STRING_ERROR
-let INVALIDATE_USER = constant.INVALIDATE_USER
+let STRING_LENGTH_ERROR = constants.STRING_LENGTH_ERROR
+let ENCODE_STRING_ERROR = constants.ENCODE_STRING_ERROR
+let INVALIDATE_USER = constants.INVALIDATE_USER
 
-let INVALIDATE_RECEIVER = constant.INVALIDATE_RECEIVER
-let INVALIDATE_PUBLIC_KEY = constant.INVALIDATE_PUBLIC_KEY
-let INVALIDATE_NICKNAME = constant.INVALIDATE_NICKNAME
+let INVALIDATE_RECEIVER = constants.INVALIDATE_RECEIVER
+let INVALIDATE_PUBLIC_KEY = constants.INVALIDATE_PUBLIC_KEY
+let INVALIDATE_NICKNAME = constants.INVALIDATE_NICKNAME
 module.exports = {
   register: async function(publicKey, image, nickname) {
     let sender = this.trs.senderId
@@ -30,7 +30,7 @@ module.exports = {
     })
 
   }
-  save: async function(words, receiveAddress) {
+  // save: async function(words, receiveAddress) {
     /*let sender = this.trs.senderId
     if (!etmjs.crypto.isAddress(sender)) return INVALIDATE_USER
     if (!etmjs.crypto.isAddress(receiveAddress)) return INVALIDATE_RECEIVER
@@ -73,6 +73,6 @@ module.exports = {
 
     })
     */
-  }
+  // }
 
 }
