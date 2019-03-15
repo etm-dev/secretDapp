@@ -30,7 +30,7 @@ module.exports = {
     })
 
   }
-  save: async function(words, receiveAddress) {
+  encodeString: async function(words, receiveAddress) {
     let sender = this.trs.senderId
     if (!etmjs.crypto.isAddress(sender)) return INVALIDATE_USER
     if (!etmjs.crypto.isAddress(receiveAddress)) return INVALIDATE_RECEIVER
@@ -43,7 +43,7 @@ module.exports = {
       }
     })
     if (receiveUser) {
-      publicKey=receiveUser.publicKey
+      publicKey = receiveUser.publicKey
     }
     //2.在主网中获取是否有publickey （如果是没注册的账户  是没有publickey存在的）
     if (!receiveUser) {
@@ -79,8 +79,8 @@ module.exports = {
       'id': ids.generateID(),
       'msg': encodeMsg,
       'sender': sender,
-      'receiver':receiveAddress,
-      date:Date.now()
+      'receiver': receiveAddress,
+      date: Date.now()
     })
 
   }
